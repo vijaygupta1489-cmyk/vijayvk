@@ -1,0 +1,11 @@
+http://testing.org/testing-1.0.dtd
+<!DOCTYPE suite SYSTEM "https://testing.org/testing-1.0.dtd">
+<suite name="Cross Browser Test" parallel="classes" thread-count="3">
+<test name="Compatible Test">
+<classes>
+<class name="crossbrowsertest.ChromeBrowserCompatible"/>
+<class name="crossbrowsertest.FirefoxBrowserCompatible"/>
+<class name="crossbrowsertest.EdgeBrowserCompatible"/>
+</classes>
+</test>
+</suite>
